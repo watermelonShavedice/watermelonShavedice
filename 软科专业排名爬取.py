@@ -8,7 +8,7 @@ driver = webdriver.Chrome()  # 设置引擎为Chrome，真实地打开一个Chro
 import pymssql
 
 
-
+#
 driver.get('https://www.shanghairanking.cn/rankings/bcmr/2022')  # 访问页面
 # 窗口最大化
 driver.maximize_window()
